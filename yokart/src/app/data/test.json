@@ -1,0 +1,156 @@
+{
+  "TShirt": [
+    {
+      "name": "Puma Men's teamLIGA Football Jersey",
+      "price": "₹938",
+      "image": "https://m.media-amazon.com/images/I/71v97iY7loL._SY741_.jpg"
+    },
+    {
+      "name": "Puma Men's Solid Regular Fit T-Shirt",
+      "price": "₹918",
+      "image": "https://m.media-amazon.com/images/I/71g92kYkcbL._SY741_.jpg"
+    },
+    {
+      "name": "Puma Men's Polyester Solid Classic Fit Polo",
+      "price": "₹950",
+      "image": "https://m.media-amazon.com/images/I/71kdmv30g2L._SY741_.jpg"
+    },
+    {
+      "name": "Van Heusen Men's Polyester Regular Fit T-Shirt",
+      "price": "₹899",
+      "image": "https://m.media-amazon.com/images/I/71v1w42c6iL._SY741_.jpg"
+    }
+  ],
+  "Cricket": [
+    {
+      "name": "SG Full Cricket Kit Bag",
+      "price": "₹2999",
+      "image": "https://m.media-amazon.com/images/I/81PzBZ2DcyL._SX679_.jpg"
+    },
+    {
+      "name": "MRF Cricket Bat",
+      "price": "₹1999",
+      "image": "https://m.media-amazon.com/images/I/61btzA7P6BL._SX679_.jpg"
+    },
+    {
+      "name": "Nivia Cricket Shoes",
+      "price": "₹1399",
+      "image": "https://m.media-amazon.com/images/I/71H6J1SZZTL._SX679_.jpg"
+    },
+    {
+      "name": "SS Cricket Helmet",
+      "price": "₹1299",
+      "image": "https://m.media-amazon.com/images/I/71XAc1V1g7L._SX679_.jpg"
+    }
+  ],
+  "Football": [
+    {
+      "name": "Nivia Storm Football",
+      "price": "₹699",
+      "image": "https://m.media-amazon.com/images/I/61VZp6z-jtL._SX679_.jpg"
+    },
+    {
+      "name": "Adidas Football Shoes",
+      "price": "₹3499",
+      "image": "https://m.media-amazon.com/images/I/71Mgy0mpMLL._SX679_.jpg"
+    },
+    {
+      "name": "Nike Football Jersey",
+      "price": "₹2299",
+      "image": "https://m.media-amazon.com/images/I/61xULYwQb9L._SX679_.jpg"
+    },
+    {
+      "name": "Cosco Goalkeeper Gloves",
+      "price": "₹1199",
+      "image": "https://m.media-amazon.com/images/I/71lDZCzq0ZL._SX679_.jpg"
+    }
+  ],
+  "Men": [
+    {
+      "name": "Levi's Men's Jeans",
+      "price": "₹1999",
+      "image": "https://m.media-amazon.com/images/I/71ZqzwM5hzL._SY741_.jpg"
+    },
+    {
+      "name": "Adidas Men's Hoodie",
+      "price": "₹2999",
+      "image": "https://m.media-amazon.com/images/I/71uYhZlqHmL._SY741_.jpg"
+    },
+    {
+      "name": "Nike Men's Training Shorts",
+      "price": "₹1299",
+      "image": "https://m.media-amazon.com/images/I/71tME0ZRBUL._SY741_.jpg"
+    },
+    {
+      "name": "HRX Men's Running Shoes",
+      "price": "₹2499",
+      "image": "https://m.media-amazon.com/images/I/71c1d1I8LbL._SY741_.jpg"
+    }
+  ],
+  "Joggers": [
+    {
+      "name": "Puma Men's Slim Fit Joggers",
+      "price": "₹1699",
+      "image": "https://m.media-amazon.com/images/I/71d6uUScZFL._SY741_.jpg"
+    },
+    {
+      "name": "HRX Men's Cotton Joggers",
+      "price": "₹1399",
+      "image": "https://m.media-amazon.com/images/I/81oP3FyxkDL._SY741_.jpg"
+    },
+    {
+      "name": "Nike Dri-FIT Training Joggers",
+      "price": "₹2199",
+      "image": "https://m.media-amazon.com/images/I/71QXj4JH+ZL._SY741_.jpg"
+    },
+    {
+      "name": "Adidas Essentials Joggers",
+      "price": "₹1899",
+      "image": "https://m.media-amazon.com/images/I/71lzECTrP9L._SY741_.jpg"
+    }
+  ],
+  "Shorts": [
+    {
+      "name": "Nike Dri-FIT Shorts",
+      "price": "₹999",
+      "image": "https://m.media-amazon.com/images/I/61J2W7H7e2L._SX679_.jpg"
+    },
+    {
+      "name": "Adidas Men's Training Shorts",
+      "price": "₹899",
+      "image": "https://m.media-amazon.com/images/I/71Gh+O5jSTL._SX679_.jpg"
+    },
+    {
+      "name": "HRX Quick Dry Shorts",
+      "price": "₹799",
+      "image": "https://m.media-amazon.com/images/I/81rKMPnPZ0L._SY741_.jpg"
+    },
+    {
+      "name": "Puma Active Shorts",
+      "price": "₹1099",
+      "image": "https://m.media-amazon.com/images/I/71g8VRqL5SL._SY741_.jpg"
+    }
+  ],
+  "Women": [
+    {
+      "name": "Adidas Women's Running Tights",
+      "price": "₹1799",
+      "image": "https://m.media-amazon.com/images/I/71r1F7dHvBL._SY741_.jpg"
+    },
+    {
+      "name": "Nike Women's Training Top",
+      "price": "₹1499",
+      "image": "https://m.media-amazon.com/images/I/71Pi2tM5KPL._SY741_.jpg"
+    },
+    {
+      "name": "HRX Women's Sports Bra",
+      "price": "₹899",
+      "image": "https://m.media-amazon.com/images/I/71YjwhJ4SxL._SY741_.jpg"
+    },
+    {
+      "name": "Puma Women's Jacket",
+      "price": "₹2499",
+      "image": "https://m.media-amazon.com/images/I/71gO5yBBcsL._SY741_.jpg"
+    }
+  ]
+}
