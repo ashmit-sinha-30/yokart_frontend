@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "TShirt",
+      "image": "https://images.unsplash.com/photo-1593791257193-a9d0b501aa12?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Sport Bra",
+      "image": "https://images.unsplash.com/photo-1682523426986-92746735ccc2?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Tank Top",
+      "image": "https://images.unsplash.com/photo-1598890208253-b94e37923365?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Jacket",
+      "image": "https://images.unsplash.com/photo-1746186237149-6e3e3a848593?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Shorts",
+      "image": "https://media.istockphoto.com/id/1415234530/photo/close-up-of-a-female-stretching-her-quadriceps-muscle-holding-her-black-sneaker.jpg?s=2048x2048&w=is&k=20&c=-XE6hAIiOsJC8AKxwcX0aY-IYRdGek9mVCzhW7bha_0="
+    },
+    {
+      "name": "Legging",
+      "image": "https://images.unsplash.com/photo-1628271516731-489cedc5c7d8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+}

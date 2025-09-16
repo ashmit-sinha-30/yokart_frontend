@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Poster from "./components/Poster/Poster";
 import CategorySection from "./components/CategorySection/CategorySection";
 import Footer from "./components/Footer/Footer";
+import Carousel from "./components/Carousel/Carousel";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <CategorySection category="Joggers" />
       <CategorySection category="Shorts" />
       <Poster imageUrl="https://plus.unsplash.com/premium_photo-1676634832558-6654a134e920?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+      <Carousel />
       <CategorySection category="Women" />
       <Poster imageUrl="https://plus.unsplash.com/premium_photo-1664537981095-4852afaf6b62?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
       <Footer/>
