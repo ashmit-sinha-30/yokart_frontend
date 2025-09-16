@@ -1,0 +1,16 @@
+.poster {
+  width: 100%;
+  height: 90vh; // adjust height as per design
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3; // fallback if no image
+//   border-radius: 8px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; // keeps proportions & fills nicely
+}

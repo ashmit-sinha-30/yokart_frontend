@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #8ebac7, #6f8a92);
+  padding: 1.3rem 2rem;
+  position: relative;
+
+  .logo {
+    font-weight: bold;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+    li {
+      position: relative;
+      cursor: pointer;
+      color: black;
+      font-weight: 500;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+
+    svg:hover {
+      color: white;
+    }
+  }
+}
+
+/* Dropdown Styles */
+/* Dropdown Styles */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff; // make sure dropdown is white
+  color: #000000; // ensure text is black
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #000; // black text
+      cursor: pointer;
+
+      &:hover {
+        color: #0077b6; // blue hover color (or pick your theme color)
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .poster {
+    background: #d3d0d0;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #000; // poster text color
+  }
+}
+

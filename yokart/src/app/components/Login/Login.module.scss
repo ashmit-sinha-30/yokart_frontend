@@ -1,0 +1,109 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #caefff, #7fd0ff, #4ea8ff);
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 6.5rem 6.5rem 1rem 1rem;
+  box-shadow: 0 30px 60px rgba(2, 6, 23, 0.18);
+  padding: 3rem;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #000;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  position: absolute;
+  left: 0.8rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 2.5rem; /* left padding for icon */
+  border: 2px solid #ccc;
+  border-radius: 2rem;
+  font-size: 1rem;
+  outline: none;
+  background: #fff;
+  color: #000;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.input:focus {
+  border-color: #4ea8ff;
+}
+
+.button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem;
+  background: #00c8ff;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.button:hover {
+  background: #00b2e0;
+}
+
+.footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: underline;
+  cursor: pointer;
+}
