@@ -1,57 +1,57 @@
+/* src/app/components/intro/Intro.module.scss */
+
 .wrapper {
-  padding-left: 6vw;
-  padding-right: 6vw;
-  padding-top: 45px;
-  padding-bottom: 24px;
+  /* Use padding-block for vertical spacing only */
+  padding-block: 45px 24px;
   background: #cfe0ea;
+  /* Ensure the wrapper can contain the full height */
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-block: 130px 24px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-auto-rows: 110px;
-  justify-items: center; 
-  column-gap: 2px;
-  row-gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 24px;
+  width: 100%;
+  max-width: 980px; /* Adjust this value to make cards larger or smaller */
+  /* Center the grid horizontally */
+  margin-inline: auto;
 }
-
 
 .card {
   position: relative;
   width: 100%;
-  overflow: clip;
-  height:23rem;
   display: block;
+  overflow: clip;
+  aspect-ratio: 10 / 12;
   text-decoration: none;
   color: inherit;
-  border: black;
   filter: drop-shadow(0 8px 18px rgba(0,0,0,0.18));
   transition: filter .2s ease, transform .2s ease;
-  &:hover { filter: drop-shadow(0 14px 28px rgba(0,0,0,0.24)); transform: translateY(-2px); }
+
+  &:hover {
+    filter: drop-shadow(0 14px 28px rgba(0,0,0,0.24));
+    transform: translateY(-2px);
+  }
 }
 
-.sm { grid-row: span 1; }
-.md { grid-row: span 2; }
-.lg { grid-row: span 3; }
-
+/* Middle column offset */
 .card:nth-child(3n + 2) {
-  transform: translateY(-30px);
+  transform: translateY(-100px); /* Reduced offset7 for smaller size */
 }
 
+/* Parallelogram container */
 .shape {
-  position: relative;
-  border-radius: 12px;
+  position: absolute;
+  inset: 0;
   overflow: hidden;
   clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
 }
-
-.shape {
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
-}
-
 
 .shape::after {
   content: "";
@@ -71,12 +71,11 @@
   object-position: center;
 }
 
-
+/* Text and arrow positioning */
 .label {
   position: absolute;
-  left: 10px;
+  left: 15px;
   bottom: 10px;
-  padding: 4px 8px;
   font-weight: 700;
   font-size: 14px;
   color: #fff;
@@ -85,21 +84,40 @@
 
 .chevron {
   position: absolute;
-  right: 10px;
+  right: 12%;
   bottom: 10px;
-  color: #fff;
   font-size: 16px;
+  color: #fff;
   text-shadow: 0 1px 2px rgba(0,0,0,0.55);
 }
 
-@media (max-width: 900px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
-  .card { width: 85%; }
-  .card:nth-child(3n + 2) { transform: translateY(-5); }
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .grid {
+    max-width: 90%;
+  }
 }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card:nth-child(3n + 2) {
+    transform: translateY(0);
+  }
+  .card:nth-child(2n) {
+    transform: translateY(-20px);
+  }
+}
+
 @media (max-width: 520px) {
-  .grid { grid-auto-rows: 180px; }
-  .grid { grid-template-columns: 1fr; }
-  .card { width: 90%; }
+  .wrapper {
+    align-items: flex-start;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card, .card:nth-child(2n) {
+    transform: translateY(0);
+  }
 }
-.grid { grid-auto-rows: 180px; }

@@ -11,12 +11,12 @@ type Card = {
 };
 
 const cards: Card[] = [
-  { title: "Cricket",   href: "/category/cricket",   src: "https://i.pinimg.com/736x/43/dc/38/43dc387def0fb306e7576ad04d3bdb49.jpg",   alt: "Cricket gear", size: "md" },
-  { title: "Football",  href: "/category/football",  src: "https://i.pinimg.com/736x/43/dc/38/43dc387def0fb306e7576ad04d3bdb49.jpg",  alt: "Football boots", size: "md" },
-  { title: "Tshirt",    href: "/category/tshirt",    src: "https://i.pinimg.com/736x/43/dc/38/43dc387def0fb306e7576ad04d3bdb49.jpg",    alt: "T-shirt", size: "md" },
-  { title: "Accessories", href: "/category/accessories", src: "https://i.pinimg.com/736x/43/dc/38/43dc387def0fb306e7576ad04d3bdb49.jpg", alt: "Accessories bag", size: "md" },
-  { title: "Short",     href: "/category/short",     src: "https://i.pinimg.com/736x/43/dc/38/43dc387def0fb306e7576ad04d3bdb49.jpg",     alt: "Shorts", size: "md" },
-  { title: "Jogger",    href: "/category/jogger",    src: "https://i.pinimg.com/736x/43/dc/38/43dc387def0fb306e7576ad04d3bdb49.jpg",    alt: "Joggers", size: "md" },
+  { title: "Cricket",   href: "/category/cricket",   src: "https://plus.unsplash.com/premium_photo-1722086350831-3cc30b7d68a7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",   alt: "Cricket gear", size: "md" },
+  { title: "Football",  href: "/category/football",  src: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",  alt: "Football boots", size: "md" },
+  { title: "Tshirts",    href: "/category/tshirt",    src: "https://plus.unsplash.com/premium_photo-1673125287084-e90996bad505?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",    alt: "T-shirt", size: "md" },
+  { title: "Accessories", href: "/category/accessories", src: "https://images.unsplash.com/photo-1747207318826-bb578e5705c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BvcnRzJTIwYWNjZXNzb3JpZXMlMjBTSE9QJTIwU0VDVElPTnxlbnwwfHwwfHx8MA%3D%3D", alt: "Accessories bag", size: "md" },
+  { title: "Shorts",     href: "/category/short",     src: "https://images.unsplash.com/photo-1719473442938-c605886ba1c3?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",     alt: "Shorts", size: "md" },
+  { title: "Joggers",    href: "/category/jogger",    src: "https://images.unsplash.com/photo-1706550632130-333d8ec921ff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8",    alt: "Joggers", size: "md" },
 ];
 
 
