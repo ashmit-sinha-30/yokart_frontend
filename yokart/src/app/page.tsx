@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Poster from "./components/Poster/Poster";
 import CategorySection from "./components/CategorySection/CategorySection";
 import Footer from "./components/Footer/Footer";
+import Intro from "./components/Intro/intro";
 import Carousel from "./components/Carousel/Carousel";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <main>
       <Navbar/>
       <Poster imageUrl="https://images.unsplash.com/photo-1607627000458-210e8d2bdb1d?q=80&w=1149&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+      <Intro/>
       <CategorySection category="TShirt" />
       <Poster imageUrl="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
       <CategorySection category="Cricket" />

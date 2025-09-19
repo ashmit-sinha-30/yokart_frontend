@@ -1,0 +1,123 @@
+/* src/app/components/intro/Intro.module.scss */
+
+.wrapper {
+  /* Use padding-block for vertical spacing only */
+  padding-block: 45px 24px;
+  background: #cfe0ea;
+  /* Ensure the wrapper can contain the full height */
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-block: 130px 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 24px;
+  width: 100%;
+  max-width: 980px; /* Adjust this value to make cards larger or smaller */
+  /* Center the grid horizontally */
+  margin-inline: auto;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: clip;
+  aspect-ratio: 10 / 12;
+  text-decoration: none;
+  color: inherit;
+  filter: drop-shadow(0 8px 18px rgba(0,0,0,0.18));
+  transition: filter .2s ease, transform .2s ease;
+
+  &:hover {
+    filter: drop-shadow(0 14px 28px rgba(0,0,0,0.24));
+    transform: translateY(-2px);
+  }
+}
+
+/* Middle column offset */
+.card:nth-child(3n + 2) {
+  transform: translateY(-100px); /* Reduced offset7 for smaller size */
+}
+
+/* Parallelogram container */
+.shape {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
+}
+
+.shape::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  clip-path: inherit;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,0.75);
+  pointer-events: none;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Text and arrow positioning */
+.label {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.55);
+}
+
+.chevron {
+  position: absolute;
+  right: 12%;
+  bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.55);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .grid {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card:nth-child(3n + 2) {
+    transform: translateY(0);
+  }
+  .card:nth-child(2n) {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper {
+    align-items: flex-start;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card, .card:nth-child(2n) {
+    transform: translateY(0);
+  }
+}
