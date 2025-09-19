@@ -33,7 +33,9 @@ const Navbar: React.FC = () => {
                 <p>Jogger</p>
                 <p>Short</p>
               </div>
-              <div className={styles.poster}>Poster</div>
+              <div className={styles.poster}>
+                <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQYuBFRc7pU4yku75EV92FyBi3m9we5LPghHK1wn8tvKzemn1X-_tOSREIOf_uSJ-Jz7NwAuaTvMAJ4B5V90N8yBtS1F7CGOcq5eG-EfHTG9okYODTASg9Ugq6YY6PRFOOWu_mPfvffIXQVMtcjcWPonCGE4.jpg?r=4df" alt="Poster" />
+              </div>
             </div>
           )}
         </li>
@@ -54,7 +56,9 @@ const Navbar: React.FC = () => {
                 <p>Short</p>
                 <p>Legging</p>
               </div>
-              <div className={styles.poster}>Poster</div>
+              <div className={styles.poster}>
+                <img src="https://www.hollywoodreporter.com/wp-content/uploads/2025/08/American-Eagle.jpg?crop=0px%2C30px%2C1918px%2C1074px&resize=1440%2C810" alt="Poster" />
+              </div>
             </div>
           )}
         </li>
@@ -71,7 +75,9 @@ const Navbar: React.FC = () => {
                 <p>Bag</p>
                 <p>Cap</p>
               </div>
-              <div className={styles.poster}>Poster</div>
+              <div className={styles.poster}>
+                <img src="https://wp.clutchpoints.com/wp-content/uploads/2025/09/Neymar-Jr.jpg?w=1200" alt="Poster" />
+              </div>
             </div>
           )}
         </li>
